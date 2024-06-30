@@ -1,0 +1,30 @@
+body {
+  background: #26233b;
+  height: 100vh;
+  display: flex;
+}
+
+#scene {
+  display: block;
+  margin: auto;
+}
+
+#filters {
+  position: absolute;
+}
+
+.ground {
+  filter: url("#ground");
+}
+
+.top {
+  filter: url("#ground");
+}
+
+.tree {
+  filter: url("#tree");
+}
+
+.background {
+  opacity: 0.3;
+}
